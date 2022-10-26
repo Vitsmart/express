@@ -1,0 +1,56 @@
+.login {
+    font-family: 'Lora', serif;
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(
+        rgba(255, 255, 255, 0.5),
+        rgba(255, 255, 255, 0.5)
+    ), 
+    url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2C6D2GgC7Bx9gtsUmssPOJ6okPL4ck6Iswg&usqp=CAU);
+background-size: cover;
+}
+.loginTitle{
+    font-size: 50px;
+}
+.loginForm{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+
+}
+.loginForm > label{
+    margin: 10px 0;
+    font-weight: 600;
+}
+.loginInput{
+    padding: 10px;
+    background-color: white;
+    border: none;
+}
+.loginButton{
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: rgb(167, 245, 10);
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+.loginButton:disabled{
+    cursor: not-allowed;
+    background-color: silver;
+}
+.loginRegisterButton{
+    position: absolute;
+    top: 75px;
+    right: 20px;
+    background-color: green;
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+}

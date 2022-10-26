@@ -1,0 +1,100 @@
+.sideBar {
+    flex: 3;
+    margin: 20px;
+    padding-bottom: 30px;
+    background-color: #fdfbfb;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.side-article{
+    margin: 0 3rem;
+    margin-top: 3rem;
+    justify-content: center;
+   
+    text-transform: uppercase;
+    margin-bottom: 4rem;
+    
+    display: block;
+}
+.articl{
+    justify-content: center;
+    margin-left: 3rem;
+    animation-name: moveInRight;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+
+}
+.btn-article{
+    margin-top: 2rem;
+    padding: 1rem 1.8rem;
+    background-color: rgb(54, 42, 228);
+    color: #fff;
+    border-radius: 10%;
+    margin-left: 6rem;
+    border: none;
+    text-transform: uppercase;
+}
+.btn-article:hover{
+    background-color: #a7a4a4;
+    transform: scale(1.1);
+    color: #fff;
+}
+.sideBarItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.sideBarTitle {
+    margin: 10px;
+    padding: 5px;
+    width: 80%;
+border-top: 1px solid #a7a4a4;
+border-bottom: 1px solid #a7a4a4;
+font-family: 'Varela Round', sans-serif;
+font-size: 18px;
+color: #222;
+font-weight: 600;
+line-height: 20px;
+text-align: center;
+animation-name: moveInRight;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+
+}
+.sideBarItem > img{
+    margin-top: 15px;
+    width: 60%;
+}
+.sideBarItem > p{
+    padding: 30px;
+}
+.sideBarList {
+    list-style: none;
+    margin-bottom: 30px;
+}
+.sideBarListItem {
+    display: inline-block;
+    width: 50%;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.sideBarSocial {
+    margin-top: 15px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sideBarIcon{
+    font-size: 26px;
+    margin-left: 15px;
+    cursor: pointer;
+}
